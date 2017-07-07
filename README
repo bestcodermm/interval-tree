@@ -1,0 +1,37 @@
+This is a README file created by Chunyu Wang, requires LINUX OS
+cd to the folder that contains all the header and cpp files
+
+compile:
+	type "make" in terminal, that will call the Makefile thus compile the four testcases.
+
+run:
+	There are four executables. TESTCASE1 TESTCASE2 TESTCASE3 TESTCASE4
+	
+	run TESTCASE1:
+	    type:	"./TESTCASE1" in terminal.
+
+	run TESTCASE2:
+	    type:	"./TESTCASE2" in terminal.
+
+	run TESTCASE3:
+	    type:	"./TESTCASE3" in terminal.
+
+	run TESTCASE4:
+	    type:	"./TESTCASE4" in terminal.
+
+clean:
+	type "make clean" in terminal
+
+
+testcases explanation:
+	TESTCASE1:
+		contains 6 rectangles, in which there are two rectangles that boundary lines intersect
+
+	TESTCASE2:
+		contains 6 rectangles, in which there is one contains the other one
+
+	TESTCASE3:
+		contains 6 rectangles, in which there are no overlaps.
+
+	TESTCASE4:
+		just contains single rectangle.
